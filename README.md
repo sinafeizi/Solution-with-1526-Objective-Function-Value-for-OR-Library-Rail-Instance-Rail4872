@@ -8,3 +8,8 @@ To investigate whether this result could be reproduced, ten additional runs were
 The laptop CPU was faster than the Intel Xeon CPU used in the paper’s experiments. These additional runs therefore serve to verify the reported solution cost; they are not a hardware-controlled comparison of computational performance.
 
 The column indices for all three solutions are publicly available in this repository. Anyone can use them with the **full original rail4872 data** to check that every row is covered and that the selected columns have a total cost of 1526. These additional results support the reproducibility of the reported objective value across multiple seeds and distinct column selections.
+| Seed | Selected columns | Cost calculation | Rows covered | Uncovered rows |
+|---|---:|---:|---:|---:|
+| 24 | 1,038 | \(550 + 2(488)=1526\) | 4,872/4,872 | 0 |
+| 28 | 1,046 | \(566 + 2(480)=1526\) | 4,872/4,872 | 0 |
+| 29 | 1,028 | \(530 + 2(498)=1526\) | 4,872/4,872 | 0 |
