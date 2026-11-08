@@ -1,5 +1,4 @@
 # Solution-with-1526-Objective-Function-Value-for-OR-Library-Rail-Instance-Rail4872
-Cost-1526 solutions for the full OR-Library rail4872 instance. Originally recorded in 1/10 runs, 1526 was reproduced in 3/10 runs with new seeds on a slightly faster Ryzen 5 5600H (18,000 s each). Column indices for three distinct solutions enable independent feasibility and cost checks.
 This repository provides selected-column indices supporting a solution of **1526 for the full OR-Library rail4872 set covering instance**, obtained using a reduced-cost-pool large neighborhood search matheuristic. The set covering model minimizes the total cost of selected columns subject to covering every row at least once. **The reported cost and feasibility refer to the full original instance, not merely a restricted core instance.**
 
 In the paper’s original experiments, one of ten seeds reached a recorded objective value of 1526 within an 18,000-second run. However, the selected-column indices were not saved, preventing direct feasibility verification of that particular solution.
